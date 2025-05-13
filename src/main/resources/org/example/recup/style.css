@@ -1,0 +1,128 @@
+.tanzi{
+-fx-background-color:  #fffff0;
+}
+
+.titre-felix{
+   -fx-font-family : 'Arial Rounded MT Bold', 'Arial', sans-serif;
+   -fx-font-size: 32px;
+   -fx-font-weight: bold;
+   -fx-text-fill: linear-gradient(to bottom right, #2d6b91, #4a9cc7);
+   -fx-effect: dropshadow (three-pass-box, rgba(0,0,0,0.3), 10, 0, 4, 4);
+   -fx-padding: 10px 20px;
+   -fx-background-color: ivory;
+   -fx-background-radius: 15px;
+   -fx-border-color: #4a9cc7;
+   -fx-border-width: 3px;
+   -fx-border-radius: 15px;
+   -fx-border-style: solid inside;
+}
+
+.titre-felix:hover{
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+    -fx-text-fill: linear-gradient(to bottom right, #4a9cc7, #2d6b91);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 15, 0, 6, 6);
+    -fx-cursor: hand;
+    -fx-transition: all 0.3s ease;
+}
+
+.initiale-rav{
+     -fx-font-family: 'Georgia', 'Time New Roman', serif;
+     -fx-font-size: 15px;
+     -fx-font-weight: bold;
+     -fx-text-fill: linear-gradient(to bottom right, #d4af37, #a67c00);
+     -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 15, 0, 3, 3);
+     -fx-translate-y: -20;
+     -fx-opacity: 0.9;
+}
+
+.initiale-rav:hover{
+      -fx-scale-x: 1.1;
+      -fx-scale-y: 1.1;
+      -fx-effect: dropshadow(three-pass-box, rgba(210, 175, 55, 0.8), 20, 0, 0, 0);
+      -fx-cursor: hand;
+      -fx-transition: all 0.3s ease;
+}
+
+.menur-bar{
+      -fx-background-color: linear-gradient(to bottom, #f5f5dc, #e8e8d0);
+      -fx-border-color: #c0c0a8;
+      -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 8, 0, 0, 2);
+      -fx-padding: 5px 10px;
+}
+
+.menu{
+      -fx-background-color: transparent;
+      -fx-text-fill: #2d6b91;
+      -fx-font-weight: bold;
+      -fx-font-size: 14px;
+      -fx-padding: 8px 15px;
+}
+
+.menu:hover{
+      -fx-background-color: rgba(45, 107, 145, 0.1);
+      -fx-text-fill: #1a4a6e;
+      -fx-border-radius: 5px;
+      -fx-background-radius: 5px;
+      -fx-cursor: hand;
+}
+
+.bouton-perte{
+      -fx-background-color: linear-gradient(to bottom, #d9534f, #c9302c);
+      -fx-text-fill: white;
+      -fx-font-family: 'Segeo UI', Arial, sans-serif;
+      -fx-font-weight: bold;
+      -fx-font-size: 14px;
+      -fx-padding: 10px 20px;
+      -fx-background-radius: 25px;
+      -fx-border-radius: 25px;
+      -fx-border-width: 2px;
+      -fx-border-color: #a94442;
+      -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 8, 0, 0, 2);
+      -fx-cursor: hand;
+}
+
+.bouton-perte:hover{
+       -fx-background-color: linear-gradient(to bottom, #c9302c, #ac2925);
+       -fx-scale-x: 1.05;
+       -fx-scale-y: 1.05;
+       -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 12, 0, 0, 3);
+       -fx-transition: all 0.3s ease;
+}
+
+.bouton-perte:pressed {
+        -fx-background-color: linear-gradient(to bottom, #ac2925, #8c221f);
+        -fx-scale-x: 0.98;
+        -fx-scale-y: 0.98;
+        -fx-effect: innershadow(three-pass-box, rgba(0,0,0,0.4), 5, 0, 0, 1);
+}
+
+.bouton-appareil{
+      -fx-background-color: linear-gradient(to bottom, #4a89dc, #3b7dd8);
+      -fx-text-fill: white;
+      -fx-font-family: 'Segeo UI', Arial, sans-serif;
+      -fx-font-weight: bold;
+      -fx-font-size: 14px;
+      -fx-padding: 10px 20px;
+      -fx-background-radius: 25px;
+      -fx-border-radius: 25px;
+      -fx-border-width: 2px;
+      -fx-border-color: #a94442;
+      -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 8, 0, 0, 2);
+      -fx-cursor: hand;
+}
+
+.bouton-appareil:hover{
+       -fx-background-color: linear-gradient(to bottom, #ff6b6b, #ff5252);
+       -fx-scale-x: 1.05;
+       -fx-scale-y: 1.05;
+       -fx-effect: dropshadow(three-pass-box, rgba(255,107,107,0.3), 8, 0, 0, 2);
+       -fx-transition: all 0.3s ease;
+}
+
+.bouton-appareil:pressed {
+        -fx-background-color: linear-gradient(to bottom, #ac2925, #8c221f);
+        -fx-scale-x: 0.98;
+        -fx-scale-y: 0.98;
+        -fx-effect: innershadow(three-pass-box, rgba(0,0,0,0.4), 5, 0, 0, 1);
+}

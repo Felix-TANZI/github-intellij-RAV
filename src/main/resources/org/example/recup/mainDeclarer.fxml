@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anchorPane2" prefHeight="600.0" prefWidth="800.0" styleClass="tanzi" stylesheets="@style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.recup.MainDeclarer">
+   <children>
+      <MenuBar layoutY="-1.0" prefHeight="48.0" prefWidth="803.0" styleClass="menur-bar" stylesheets="@style.css">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Label contentDisplay="CENTER" layoutX="193.0" layoutY="75.0" prefHeight="57.0" prefWidth="431.0" styleClass="titre-felix" stylesheets="@style.css" text="DECLARER UNE PERTE" />
+      <Label layoutX="725.0" layoutY="574.0" prefHeight="25.0" prefWidth="55.0" styleClass="initiale-rav" stylesheets="@style.css" text="R.A.V." />
+      <Label layoutX="95.0" layoutY="385.0" prefHeight="25.0" prefWidth="75.0" text="Description : " />
+      <TextField fx:id="description" layoutX="166.0" layoutY="387.0" prefHeight="25.0" prefWidth="404.0" promptText="Entrez une description de l'appareil" />
+      <Label layoutX="101.0" layoutY="156.0" prefHeight="25.0" prefWidth="47.0" text="Nom :" />
+      <TextField fx:id="nom" layoutX="137.0" layoutY="158.0" prefHeight="25.0" prefWidth="409.0" promptText="Entrez votre nom " />
+      <Label layoutX="95.0" layoutY="451.0" prefHeight="25.0" prefWidth="113.0" text="Type :" />
+      <Label layoutX="99.0" layoutY="254.0" prefHeight="25.0" prefWidth="55.0" text="Adresse :" />
+      <Label layoutX="99.0" layoutY="320.0" prefHeight="25.0" prefWidth="75.0" text="Marque :" />
+      <Label layoutX="100.0" layoutY="287.0" prefHeight="25.0" prefWidth="101.0" text="Numero de serie :" />
+      <Label layoutX="96.0" layoutY="487.0" prefHeight="25.0" prefWidth="57.0" text="est vole :" />
+      <TextField fx:id="type" layoutX="129.0" layoutY="453.0" prefHeight="25.0" prefWidth="403.0" promptText="Entrez le type de l'appareil" />
+      <TextField fx:id="adresse" layoutX="151.0" layoutY="255.0" prefHeight="25.0" prefWidth="367.0" promptText="Entrez votre adresse" />
+      <TextField fx:id="marque" layoutX="150.0" layoutY="322.0" prefHeight="25.0" prefWidth="396.0" promptText="Entrez la marque de l'appareil" />
+      <TextField fx:id="numeroSerie" layoutX="198.0" layoutY="288.0" prefHeight="25.0" prefWidth="392.0" promptText="Entrez le numero de serie de l'appareil" />
+      <TextField fx:id="estVole" layoutX="150.0" layoutY="488.0" prefHeight="25.0" prefWidth="160.0" promptText="oui ou non" />
+      <Label layoutX="102.0" layoutY="221.0" prefHeight="25.0" prefWidth="55.0" text="Email :" />
+      <TextField fx:id="email" layoutX="139.0" layoutY="222.0" prefHeight="25.0" prefWidth="455.0" promptText="Entrez votre email" />
+      <Label layoutX="101.0" layoutY="189.0" prefHeight="25.0" prefWidth="26.0" text="Tel :" />
+      <TextField fx:id="tel" layoutX="126.0" layoutY="190.0" prefHeight="25.0" prefWidth="436.0" promptText="Entrez votre numero de telephone" />
+      <Label layoutX="96.0" layoutY="351.0" prefHeight="25.0" prefWidth="47.0" text="Modele :" />
+      <TextField fx:id="modele" layoutX="146.0" layoutY="353.0" prefHeight="25.0" prefWidth="392.0" promptText="Entrez le modele de l'appareil" />
+      <Label layoutX="96.0" layoutY="420.0" prefHeight="25.0" prefWidth="75.0" text="Statut :" />
+      <TextField fx:id="statut" layoutX="137.0" layoutY="421.0" prefHeight="25.0" prefWidth="392.0" promptText="Entrez le statut de l'appareil (perdu/vole)" />
+      <Label layoutX="89.0" layoutY="521.0" prefHeight="25.0" prefWidth="112.0" text="Date de declaration :" />
+      <TextField fx:id="dateDeclaration" layoutX="202.0" layoutY="522.0" prefHeight="25.0" prefWidth="248.0" promptText="Entrez la date de declaration (yyyy/MM/dd)" />
+      <Button fx:id="bouton_retour" layoutX="458.0" layoutY="501.0" mnemonicParsing="false" onAction="#retour" styleClass="bouton-appareil" stylesheets="@style.css" text="Retour" />
+      <Button fx:id="bouton_reinitialiser" layoutX="566.0" layoutY="501.0" mnemonicParsing="false" onAction="#reinitialiser" styleClass="bouton-perte" stylesheets="@style.css" text="Reinitialiser" />
+      <Button fx:id="bouton_valider" layoutX="698.0" layoutY="500.0" mnemonicParsing="false" onAction="#valider" styleClass="bouton-appareil" stylesheets="@style.css" text="Valider" />
+   </children>
+</AnchorPane>
